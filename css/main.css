@@ -6,12 +6,78 @@ html {
   box-sizing: inherit;
 }
 
+div {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
 
-font-family: 'Lato', sans-serif;
+.one {
+  display: inline-block;
+  background-color: #0f0;
+  text-align: center;
+  padding: 1em;
+  max-width: 25em;
+  margin-top: 1.5em;
+}
 
-Typefaces: Lato
-Maximum width on section inner boxes: 25em
-Colours: #666, #333, #eee9de
-Paddings: 1em, 2em, .4em .75em .5em
-Margins: 1.5rem
-Line-height: 1.5
+.two {
+  display: inline-block;
+  background-color: #f00;
+  max-width: 25em;
+  text-align: left;
+  margin-top: 0;
+  padding: .5em;
+}
+
+body {
+  background-color: #eee9de;
+  margin: 0;
+}
+
+section {
+  background-color: #eee9de;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 25em;
+  width: 100%;
+  padding-top: .5em;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  color: #666;
+  text-align: left;
+  padding: .5em;
+}
+
+a {
+  color: #666;
+  display: inline-block;
+  text-align: left;
+}
+
+.btn {
+  font-family: Lato, sans-serif;
+  color: #333;
+  text-decoration: none;
+  border: 3px solid #333;
+  border-radius: .75em;
+  padding: .75em;
+  text-align: left;
+}
